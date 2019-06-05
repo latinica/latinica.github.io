@@ -49,9 +49,9 @@ function perevod()
 				{
 					currentLetter == 'ю'
 				}
-				if (consonants.indexOf(currentLetter) > -1)
+				if (cyrConsonants.indexOf(currentLetter) > -1)
             			{
-             			        number = consonants.indexOf(currentLetter);
+             			        number = cyrConsonants.indexOf(currentLetter);
               			        resultLetter = latArray[number];
 					resultString += resultLetter;
            			}
