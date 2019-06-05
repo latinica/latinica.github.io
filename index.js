@@ -82,12 +82,8 @@ function perevod()
             }
         }
         else
-        {
-            if (currentLetter == 'Ь' || currentLetter == 'Ъ')
-            {
-                resultLetter = '';
-            }    
-            else if (cyrArray2.indexOf(currentLetter) > -1)
+        {  
+            if (cyrArray2.indexOf(currentLetter) > -1)
             {
                 number = cyrArray2.indexOf(currentLetter);
                 resultLetter = latArray2[number];
